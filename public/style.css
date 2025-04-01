@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+button {
+  background: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+input[type="number"] {
+  width: 60px;
+}
+
+.error {
+  color: red;
+}

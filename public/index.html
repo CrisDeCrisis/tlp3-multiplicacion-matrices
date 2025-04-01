@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Multiplicación de Matrices</title>
+</head>
+
+<body>
+    <h1>Multiplicación de Matrices</h1>
+
+    <article class="input-group">
+        <label for="filas">Número de Filas (Matriz 1):</label>
+        <input type="number" id="filas" min="1" value="2">
+    </article>
+
+    <article class="input-group">
+        <label for="columnas">Número de Columnas (Matriz 1) / Filas (Matriz 2):</label>
+        <input type="number" id="columnas" min="1" value="2">
+    </article>
+
+    <article class="input-group">
+        <label for="columnasMatriz2">Número de Columnas (Matriz 2):</label>
+        <input type="number" id="columnasMatriz2" min="1" value="2">
+    </article>
+
+    <button id="generarMatrices">Generar Matrices</button>
+
+    <article id="matrices" style="display: none;">
+        <div class="matriz-container">
+            <section class="matriz">
+                <h3>Matriz 1</h3>
+                <div id="matriz1Inputs"></div>
+            </section>
+            <section class="matriz">
+                <h3>Matriz 2</h3>
+                <div id="matriz2Inputs"></div>
+            </section>
+        </div>
+        <button id="multiplicarMatrices">Multiplicar Matrices</button>
+    </article>
+
+    <article id="resultado" style="display: none; margin-top: 20px;">
+        <h3>Resultado:</h3>
+        <div id="matrizResultado"></div>
+    </article>
+
+    <p id="error" class="error"></p>
+
+    <script src="script.js"></script>
+    <script src="service.js"></script>
+</body>
+
+</html>
