@@ -1,6 +1,6 @@
-# Suma de Matrices
+# Multiplicacion de Matrices
 
-Este proyecto es una aplicación web que permite sumar dos matrices de dimensiones personalizadas. Los usuarios pueden ingresar las dimensiones de las matrices, rellenar sus valores y obtener el resultado de la suma.
+Este proyecto es una aplicación web que permite multiplicar dos matrices. Los usuarios pueden ingresar las dimensiones de las matrices, respetando las reglas de multiplicacion, rellenando sus valores y obteniendo el resultado de la multiplicacion.
 
 ## Requisitos
 
